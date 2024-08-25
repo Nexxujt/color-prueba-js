@@ -1,0 +1,37 @@
+algoritmo
+
+
+color = valor ingresado
+
+
+pordefecto = 0
+violeta 
+rojo
+amarillo
+naranja
+verde
+
+
+ si color = violeta{
+    combiar color a violeta
+    
+ }si-no {
+    si color = rojo {
+        cambiar colo a rojo
+    }
+    si-no {
+        si color = amarillo {
+            cambiar color amarillo
+        }
+        si.no {
+            si color = naranja {
+                cambiar color naranja
+            }
+            si-no {
+                si color = verde {
+                    cambiar color verde
+                }
+            }
+        }
+    }
+ }
